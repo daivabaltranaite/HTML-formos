@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML FORMS</title>
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>HTML FORMS</legend>
+      <p>Name:</p>
+      <input type="text" name="vardas" placeholder="Your name">
+      <p>Surname:</p>
+      <input type="text" name="pavarde" placeholder="Your surname">
+      <p>Email:</p>
+      <input type="email" name="email" placeholder="Your email">
+      <p>Mobile:</p>
+      <input type="tel" name="numeris" placeholder="+370">
+      <p>Age:</p>
+      <input type="number" name="amzius" min="1" max="40">
+      <p>Favorite food:</p>
+      <select id="megstamiausias-maistas" name="megstamiausias-maistas">
+        <option value="meat">Meat</option>
+        <option value="salad">Salad</option>
+        <option value="fish">Fish</option>
+        <option value="cake">Cake</option>
+      </select>
+      <p>Gender:</p>
+      <label for="male">Male</label><br>
+      <input type="radio" id="male" name="gender" value="male"><br>
+      <label for="female">Female</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <br><br>
+      <input type="file" id="failas" name="failas">
+      <p>Date:</p>
+      <input type="date" id="data" name="data">
+      <p>Enter your message:</p>
+      <textarea name="zinute" rows="10" cols="30" placeholder="Message..."></textarea>
+      <br><br>
+      <button type="reset">
+        reset
+      </button>
+      <button type="submit">
+        submit
+      </button>
+
+    </fieldset>
+  </form>
+</body>
+
+</html>
